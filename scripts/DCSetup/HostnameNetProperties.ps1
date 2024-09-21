@@ -15,7 +15,7 @@ $adapterProperties = @{
 }
 New-NetIPAddress @adapterProperties
 # set DNS server
-Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 192.168.3.254
+Set-DnsClientServerAddress -InterfaceAlias Ethernet -ServerAddresses 192.168.3.11
 
 
 ## rename the host if not done already
